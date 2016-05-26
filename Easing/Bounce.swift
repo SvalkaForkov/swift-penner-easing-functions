@@ -11,7 +11,7 @@ import Foundation
 
 struct Bounce{
     static var EaseIn :Easing    = { (t,b,c,d) -> CGFloat in
-        return c - EaseOut(t: d-t,b: b,c: c,d: d) + b
+        return c - EaseOut(t: d-t,b: 0,c: c,d: d) + b
     }
     
     static var EaseOut :Easing   = { (_t,b,c,d) -> CGFloat in
