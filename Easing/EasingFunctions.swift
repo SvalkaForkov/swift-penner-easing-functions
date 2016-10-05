@@ -9,9 +9,9 @@
 import Foundation
 
 
-typealias Easing        = (t:CGFloat,b:CGFloat,c:CGFloat,d:CGFloat)-> CGFloat
-typealias BackEasing    = (t:CGFloat,b:CGFloat,c:CGFloat,d:CGFloat,s:CGFloat)-> CGFloat
-typealias ElasticEasing = (t:CGFloat,b:CGFloat,c:CGFloat,d:CGFloat,a:CGFloat,p:CGFloat)-> CGFloat
+typealias Easing        = (_ t:CGFloat,_ b:CGFloat,_ c:CGFloat,_ d:CGFloat)-> CGFloat
+typealias BackEasing    = (_ t:CGFloat,_ b:CGFloat,_ c:CGFloat,_ d:CGFloat,_ s:CGFloat)-> CGFloat
+typealias ElasticEasing = (_ t:CGFloat,_ b:CGFloat,_ c:CGFloat,_ d:CGFloat,_ a:CGFloat,_ p:CGFloat)-> CGFloat
 
 
 

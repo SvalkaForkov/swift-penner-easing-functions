@@ -132,6 +132,7 @@
 					26FB9DD41CE6889D00954220 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 9T9Q2EVV88;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -292,6 +293,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -310,6 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jvra.Easing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -332,6 +335,7 @@
 				26FB9DDF1CE6889D00954220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
