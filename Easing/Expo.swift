@@ -26,6 +26,7 @@ struct Expo{
         if t < 1{
             return c/2 * pow(2, 10 * (_t - 1)) + b;
         }
-        return c/2 * (-pow(2, -10 * --t) + 2) + b;
+        let t1 = t-1
+        return c/2 * (-pow(2, -10 * t1) + 2) + b;
     }
 }

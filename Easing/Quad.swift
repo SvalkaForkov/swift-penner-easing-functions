@@ -24,6 +24,8 @@ struct Quad{
         if t < 1{
             return c/2*t*t + b;
         }
-        return -c/2 * ((--t)*(t-2) - 1) + b;
+        let t1 = t-1
+        let t2 = t1-2
+        return -c/2 * ((t1)*(t2) - 1) + b;
     }
 }
